@@ -1,6 +1,6 @@
 package modelo;
 
-public class Barcaza extends Vehiculo implements Nautico {
+public class Barcaza implements Nautico {
 @Override
     public void atracar() {
       System.out.println("Barcaza atracando");

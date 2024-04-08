@@ -1,6 +1,6 @@
 package modelo;
 
-public class Avion extends Vehiculo implements objetoVolador {
+public class Avion implements objetoVolador {
     @Override
     public void despegar() {
         System.out.println("Avion despegando");

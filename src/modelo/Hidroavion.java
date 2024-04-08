@@ -1,6 +1,6 @@
 package modelo;
 
-public class Hidroavion extends Vehiculo implements objetoVolador {
+public class Hidroavion implements objetoVolador {
 
     @Override
     public void despegar() {
